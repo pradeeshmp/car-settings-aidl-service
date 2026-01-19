@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Settings</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_display">Display</string>
+    <string name="nav_audio">Audio</string>
+    <string name="nav_climate">Climate</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="service_status">Service Status</string>
+    <string name="property_count">Property Count</string>
+    <string name="refresh">Refresh</string>
+    <string name="dump_state">Dump State</string>
+
+    <!-- Display Settings -->
+    <string name="display_settings_title">Display Settings</string>
+    <string name="brightness">Brightness</string>
+    <string name="auto_brightness">Auto Brightness</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_auto">Auto</string>
+
+    <!-- Audio Settings -->
+    <string name="audio_settings_title">Audio Settings</string>
+    <string name="media_volume">Media Volume</string>
+    <string name="navigation_volume">Navigation Volume</string>
+    <string name="call_volume">Call Volume</string>
+
+    <!-- Connection Status -->
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_error">Error</string>
+    <string name="reconnect">Reconnect</string>
+</resources>
