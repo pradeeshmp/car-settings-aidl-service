@@ -5,7 +5,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -15,7 +14,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "car-settings-aidl-service"
-
 include(":aidl-interfaces")
 include(":car-settings-service")
 include(":car-settings-client")

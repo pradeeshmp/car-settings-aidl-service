@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
-    <!-- Custom permissions for privileged properties -->
-    <permission
-        android:name="com.automotive.carsettings.permission.PRIVILEGED"
-        android:protectionLevel="signature" />
-
-    <permission
-        android:name="com.automotive.carsettings.permission.SYSTEM"
-        android:protectionLevel="signature|privileged" />
-
     <application
-        android:name=".CarSettingsApplication"
+        android:name=".CarSettingsApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light">
-
+        android:label="Car Settings Service"
+        android:supportsRtl="true">
+        
         <service
             android:name=".CarSettingsService"
-            android:enabled="true"
             android:exported="true"
-            android:foregroundServiceType="systemExempted">
+            android:permission="com.example.carsettings.permission.ACCESS_CAR_SETTINGS">
             <intent-filter>
-                <action android:name="com.automotive.carsettings.service.BIND_SERVICE" />
+                <action android:name="com.example.carsettings.SERVICE_BIND" />
             </intent-filter>
         </service>
-
     </application>
 
 </manifest>
