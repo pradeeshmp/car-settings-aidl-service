@@ -29,7 +29,7 @@ A **production-ready**, multi-module Android project demonstrating **AIDL-based 
 
 ## 🎯 Overview
 
-This project demonstrates **interview-ready** and **production-quality** implementation of:
+This project demonstrates **production-quality** implementation of:
 
 - ✅ **AIDL-based IPC** between service and client processes
 - ✅ **Property-based vehicle configuration** management (47 properties across 6 categories)
@@ -39,7 +39,7 @@ This project demonstrates **interview-ready** and **production-quality** impleme
 - ✅ **Client death handling** and automatic reconnection
 - ✅ **Modern Android architecture** (Hilt, Coroutines, Flow, DataStore)
 
-**Target Audience:** Android developers learning AAOS, interview candidates, and teams building automotive applications.
+**Target Audience:** Android developers learning AAOS, and teams building automotive applications.
 
 ---
 
